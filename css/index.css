@@ -4,14 +4,22 @@ header {
     border: 10px solid #7C5E99;
     padding: 10px 20px;
     justify-content: space-between;
-
+    align-items: center;
 }
 nav {
     text-align: right;    
 }
 
-img {
-    width: 100px;
+img{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;   
+    transition: transform 200ms cubic-bezier(0, -0.63, 1, 1.83);
+}
+
+img:hover {
+    transform: scale(1.1);
+
 }
 
 
@@ -22,11 +30,12 @@ img {
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #7C5E99;
     text-align: center;
-    
+    transition: transform 100ms linear;
 }
 
 #button:hover {
-    background-color: #d18994;
+    transform: scale(1.08);
+    opacity: 0.5;
 }
 
 a {
