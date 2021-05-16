@@ -1,13 +1,6 @@
-header {
-    display: flex;
-    background-color: rgb(27, 26, 26);
-    border: 10px solid #7C5E99;
-    padding: 10px 20px;
-    justify-content: space-between;
-    align-items: center;
-}
-nav {
-    text-align: right;    
+
+body {
+    background-image: url("https://assets.website-files.com/5c83cfc33645873957fce436/5c9011c0a578c0219846cedb_bg-hero.jpg");
 }
 
 img{
@@ -21,27 +14,3 @@ img:hover {
     transform: scale(1.6);
 
 }
-
-
-
-
-a {
-    display: inline-flex;
-    align-items: center;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration:none;
-    margin-right: 30px;
-}
-
-a::before {
-    content:"";
-    background-color: #fff;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-
-}
-
-
