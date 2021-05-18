@@ -1,12 +1,11 @@
 .progress-bar {
     box-sizing: border-box;
-    background-color: rgb(149, 47, 153);
-    border: 9px solid rgb(255, 252, 252);
+    border: 4px solid rgb(121, 101, 118);
     height: 40px;
 
 }
 .progress-bar::-webkit-progress-bar {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 .progress-bar::-webkit-progress-value {
     background-color: #0ab442;
