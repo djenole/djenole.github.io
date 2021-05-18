@@ -5,3 +5,7 @@ padding-bottom: 50px;
 border-bottom: 4mm ridge rgba(133, 121, 138, 0.6);
 
 }
+
+.section .main-title {
+    margin-bottom: 60px;
+}
