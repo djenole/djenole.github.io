@@ -3,7 +3,7 @@
 .button {
     margin-right: 0;
     display:inline-block;
-    background-color: #8f8e8e;
+    background-color: #10900c;
     padding: 18px 20px;
     box-shadow: 5px 5px 8px #000000;
     text-align: center;
@@ -17,7 +17,7 @@
 
 .button:hover {
     transform: scale(0.9);
-    background-color: #fff;
+    background-color: rgb(255, 102, 0);
     color: rgb(0, 0, 0);
 }
  
