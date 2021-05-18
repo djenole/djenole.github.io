@@ -1,0 +1,23 @@
+.main-title {
+    color: #ffffff;  
+    font-family: 'Audiowide', cursive;
+    font-size: 40px;
+    text-shadow: 4px 4px 9px rgb(64, 66, 187);
+}
+
+/* EXPERIMENTO DE FONTES
+
+font-family: 'Fira Code', sans-serif;
+
+font-family: 'Audiowide', cursive;
+font-family: 'DotGothic16', sans-serif;
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Saira Stencil One', cursive;
+font-family: 'VT323', monospace;
+*/
+
+.main-title.-second {
+color: #fff;
+text-align: center;
+font-family:'Press Start 2P', sans-serif;
+}
