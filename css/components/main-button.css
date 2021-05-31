@@ -1,6 +1,6 @@
 
 
-.button {
+.main-button {
     margin-right: 0;
     display:inline-block;
     background-color: #10900c;
@@ -15,7 +15,7 @@
 
 }
 
-.button:hover {
+.main-button:hover {
     transform: scale(0.9);
     background-color: rgb(255, 102, 0);
     color: rgb(0, 0, 0);
