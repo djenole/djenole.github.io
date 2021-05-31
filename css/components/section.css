@@ -9,3 +9,12 @@ border-bottom: 4mm ridge rgba(133, 121, 138, 0.6);
 .section .main-title {
     margin-bottom: 60px;
 }
+
+.section.-bgBlack {
+    background-color: #000;
+
+}
+
+.section.-bdFirst {
+    border-color: rgb(28, 109, 35)
+}
