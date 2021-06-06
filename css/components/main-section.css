@@ -18,3 +18,11 @@ border-bottom: 4mm ridge rgba(133, 121, 138, 0.6);
 .main-section.-bdFirst {
     border-color: rgb(28, 109, 35)
 }
+
+.main-section.-bgSecond {
+    background-color: #7C5E99;
+    
+}
+.main-section.-bdBlack {
+    border-color: #000;
+}
