@@ -1,0 +1,66 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.node-card::before {
+    content: '';
+    position: absolute;
+    top: 45px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 0px;
+    border-left: 2.5px dashed #000;
+    transform:translateX(-63%);
+    
+    
+
+}
+
+.node-card .title {
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: #1b5719;
+    margin-bottom: 50px;
+
+
+}
+
+.node-card .logo {
+    display: flex;
+    align-items: center;
+    height: 140px;
+    border: 5px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    width: 50px;
+    object-fit: cover;
+    
+}
+
+.node-card.-clean .logo {
+    padding:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+
+    
+    
+}
+
+
+.node-card.-first .logo{
+    background-color: blueviolet;
+}
+.logo-slide {
+    height: 30px;
+}
