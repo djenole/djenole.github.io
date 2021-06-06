@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components//main-label.css">
 
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -221,18 +222,19 @@
         </p>
     </section>
 
-    <section>
-        <div class="contato">
-            <form action="" method="post">
-                <label for="POST-name">Name</label>
-                <input id="POST-name" type="text" name="name">
-                <label for="POST-email">Email</label>
-                <input id="POST-email" type="text" name="email">
-                <input type="submit" value="Save">
-              </form>
-        </div>
+    <form>
+        <label class="main-label" for="name">Nome</label>
+        <input id="name" type="text">
 
-    </section>
+        <label class="main-label" for="email">Email</label>
+        <input id="email" type="email">
+
+        <label>Message</label>
+        <textarea name="" id="message"></textarea>
+
+        <input type="submit" value="Enviar">
+
+    </form>
 
     <footer class="main-footer">
         
