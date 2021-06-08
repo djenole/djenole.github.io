@@ -24,3 +24,8 @@
 .main-button.-full {
     width: 100%;
 }
+
+.main-button.-full:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}
