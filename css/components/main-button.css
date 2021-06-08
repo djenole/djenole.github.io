@@ -21,3 +21,6 @@
     color: rgb(0, 0, 0);
 }
  
+.main-button.-full {
+    width: 100%;
+}
