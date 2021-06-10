@@ -47,10 +47,10 @@
     <header class="main-header" >
             <img class="logo-header" src="assets/img/pixel-heart.png" alt="erro" title="Logo pixel heart">
         <nav>
-            <a class="main-action" href="">Skills</a>
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a >
-            <a class="main-action" href="">Contatos</a>
+            <a class="main-action" href="#skills">Skills</a>
+            <a class="main-action" href="#projetos">Projetos</a>
+            <a class="main-action" href="#sobre">Sobre</a >
+            <a class="main-action" href="#form-contato">Contatos</a>
             <a class="main-button" href="" lang="en">Download CV</a>
         </nav>
         
@@ -68,14 +68,14 @@
 
             <div class="navigation">
                 <a class="main-button" href="" lang="en">Download CV</a>
-                <a class="main-button" href="" lang="en">Contatos</a>
+                <a class="main-button" href="#contatos-footer" lang="en">Contatos</a>
             </div>
         </div>
     </section>
    
 
     
-    <section class="main-section">
+    <section id="skills" class="main-section">
         <h2 class="main-title -second">Skills</h2>
         
         <div class="wrapper-skill">
@@ -164,10 +164,10 @@
         </div>
     </section>
 
-    <section class="main-section -bgBlack -bdFirst">
+    <section id="projetos" class="main-section -bgBlack -bdFirst">
         <h2 class="main-title -second">Projetos</h2>
         <div class="wrapper-card">
-            <a href="#" target="_blank">
+            <a href="https://djenole.github.io/perso-site/" target="_blank">
                 <figure class="card-project">
                     <img class="logo" src="./assets/img/persoSite.png" alt="Meu curriculo">
                 </figure>
@@ -187,7 +187,7 @@
         </div>
     </section>
 
-    <section class="main-section -bgSecond -bdBlack">
+    <section id="sobre" class="main-section -bgSecond -bdBlack">
         <h2 class="main-title -second">Sobre</h2>
         
         <section class="main-carousel">
@@ -228,8 +228,8 @@
         </p>
     </section>
 
-    <form class="main-form">
-        <legend class="main-title -second">Contatos</legend>
+    <form  class="main-form">
+        <legend id="form-contato" class="main-title -second">Contatos</legend>
 
         <label class="main-label" for="name">Nome</label>
         <input class="main-input" id="name" type="text" required>
@@ -244,7 +244,7 @@
 
     </form>
 
-    <footer class="main-footer">
+    <footer id="contatos-footer"class="main-footer">
         
         <a class="action" href="https://github.com/djenole" target="_blank">
             <img src="./assets/img/github.icon.png" alt="logo do Github">
